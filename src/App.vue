@@ -3,8 +3,9 @@
     <div class="logo">
       <img alt="Vue logo" src="./assets/logo.png">
     </div>
-    <router-link to="/">Dashbord</router-link> |
-    <router-link to="/about">Инвестиции</router-link>
+    <router-link to="/">Dashboard</router-link> |
+    <router-link to="/investments">Инвестиции</router-link> |
+    <router-link to="/credits">Кредиты</router-link>
   </div>
   <router-view/>
 </template>
