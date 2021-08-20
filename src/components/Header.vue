@@ -4,27 +4,31 @@
       <img alt="Vue logo" src="../assets/logo.png">
     </div>
     <div class="nav">
-      <a href="">Общие сведения</a>
-      <a href="">Разделы</a>
+      <a href="">Общее</a>
+      <a href="">Инвестиции</a>
+      <a href="">Кредиты</a>
+      <a href="">Свободные средства</a>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld'
+  name: 'Header'
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
 .container {
   max-width: 1440px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 5px 20px;
+  background: #e5e5e5;
 }
 
 .logo {
@@ -54,5 +58,9 @@ li {
 }
 a {
   color: #42b983;
+  padding: 0 10px;
+}
+a:hover {
+  color: black;
 }
 </style>
